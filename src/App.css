@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(185deg, #e1fab7 0, #e4f2a8 8.33%, #e6e899 16.67%, #e8dd89 25%, #ead078 33.33%, #ebc268 41.67%, #ecb258 50%, #eda14b 58.33%, #ee9142 66.67%, #f0803e 75%, #f1703f 83.33%, #f36043 91.67%, #f44f4b 100%) no-repeat;
+  background-attachment: fixed;
+}
+
+html,body{
+  color: white;
+  font-family: sans-serif;
+}
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.img-logo{
+  width: 120px;
+  height: 120px;
+}
