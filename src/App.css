@@ -27,4 +27,5 @@ html,body{
 .img-logo{
   width: 120px;
   height: 120px;
+  display: flex;
 }
