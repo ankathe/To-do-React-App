@@ -1,0 +1,19 @@
+.task-container{
+    width:400px;
+    min-height: 55px;
+    background-color: aquamarine;
+    margin:5px 0;
+    padding: 6px 10px 6px 15px;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid #f2643d;
+    cursor: pointer;
+}
+
+.task-text{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    
+}

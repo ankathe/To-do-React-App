@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-TO-DO App es una aplicación para realizar una lista de tareas creada con React.js. Permite a los usuarios agregar, marcar como completadas y eliminar tareas de su lista de cosas por hacer.
+TO-DO App es una aplicación para realizar una lista de tareas creada con React.js. Permite a los usuarios agregar, marcar tareas como completadas y eliminar tareas de su lista de cosas por hacer.
 
 ## Características
 
@@ -15,6 +15,8 @@ TO-DO App es una aplicación para realizar una lista de tareas creada con React.
 - React.js
 - HTML5
 - CSS3
+
+**************************************************************************
 
 # Getting Started with Create React App
 
