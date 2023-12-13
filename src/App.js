@@ -1,20 +1,20 @@
-import './App.css';
-import logo from './images/Projects-logo.png';
-import './components/task.js';
+import "./App.css";
+import logo from "./images/Projects-logo.png";
+import Task from "./components/task";
+
+
 
 function App() {
   return (
     <div className="App">
       <div className="container-logo">
-        <img 
-        src={logo} 
-        className="img-logo" />  
-      </div> 
+        <img src={logo} className="img-logo" />
+      </div>
       <div className="title-container">
         <h1>Todo List +</h1>
       </div>
       <div className="container-todo-principal">
-        perro
+        <Task text="perro"></Task>
       </div>
     </div>
   );
