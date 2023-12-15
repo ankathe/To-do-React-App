@@ -1,19 +1,21 @@
 .task-container{
     width:400px;
     min-height: 30px;
-    background-color: #fff;
+    background-color: #f1ae4f;
     margin:5px 0;
     padding: 6px 10px 6px 15px;
     border-radius: 7px;
     border: 2px solid #f2a73d;
-    color: black;
+    color: #fff;
     display: flex;
+    font-weight: bold;
     align-items: center; 
 }
 
 .task-container.completed{
-    background-color: #f2a73d;
+    background-color: #f17452;
     text-decoration: line-through;
+    border: 2px solid #f17452;
 }
 
 .task-text{
@@ -33,5 +35,11 @@
     justify-content: right;
     cursor: pointer;
     flex-wrap: wrap; 
+    color: #fff;
+    font-weight: bolder;
+    transition: all 0.3s ease-in-out;
+}
+
+.task-icon-container:hover{
     color:#eb0a44;
 }

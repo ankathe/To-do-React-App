@@ -1,0 +1,39 @@
+.form-container{
+    width:400px;
+    min-height: 35px;
+    background-color: #fff;
+    margin:5px 0;
+    padding: 6px 10px 6px 15px;
+    border-radius: 7px;
+    flex-wrap: wrap;
+    color: #26251c;
+    display: flex;
+    font-weight: bold;
+    align-items: center; 
+    gap: 5px;
+    transition: all 0.1s ease;
+}
+.form-container:focus-within{
+    border: solid #a0e8b7;
+}
+
+.form-text{
+    width: 80%;
+    min-height: 25px;
+    border: none;
+    cursor: text;
+    outline: none;
+}
+
+.button-add{
+    width: 15%;
+    min-height: 25px;
+    background-color: #a0e8b7;
+    border: 1px solid #54b472;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.button-add:hover{
+    background-color: #0AD4A1;
+}

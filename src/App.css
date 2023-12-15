@@ -31,6 +31,7 @@ html,body{
   height: 120px;
   cursor: pointer;
   justify-content: left;
+  transition: all 0.3s ease-in-out;
 }
 .img-logo:hover{
   width: 150px;
@@ -54,10 +55,12 @@ html,body{
   padding: 25px;
   border-radius: 26px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  background-color: #fff;
+  background-color: rgba(38, 37, 28, 0.8);
   justify-content: center;
   align-items: center;
   align-content: center;
   text-align: center;
+  box-shadow: 10px 10px 33px -1px rgba(0,0,0,0.58);
 }
