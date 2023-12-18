@@ -5,3 +5,9 @@
     margin-top: 15px;
     color: red;
 }
+
+.container-general{
+    display: flex;
+    flex-direction: column;
+    max-width: 430px;
+}

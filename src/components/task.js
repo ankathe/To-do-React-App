@@ -2,7 +2,7 @@ import React from 'react';
 import './task.css'
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
-function Task({id, completed, completedTask, deleteTask}){
+function Task({id, text, completed, completedTask, deleteTask}){
     return(
         <div className={completed ? 'task-container completed' : 'task-container'}>
             <div 
@@ -12,10 +12,11 @@ function Task({id, completed, completedTask, deleteTask}){
             </div>
             <div className="task-icon-container"
             onClick={() => deleteTask(id)}>
-            <AiOutlineCloseCircle className='icon-eliminate'/>
+            <AiOutlineCloseCircle 
+            className='icon-eliminate'/>
             </div>
         </div>
     );
-}
+};
 
 export default Task;
