@@ -1,0 +1,19 @@
+.container-logo{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height:150px;
+    align-items: left;
+  }
+  
+  .img-logo{
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    justify-content: left;
+    transition: all 0.3s ease-in-out;
+  }
+  .img-logo:hover{
+    width: 150px;
+    height: 150px;
+  }

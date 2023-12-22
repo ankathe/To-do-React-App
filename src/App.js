@@ -1,13 +1,12 @@
 import "./App.css";
 import logo from "./images/Projects-logo.png";
 import ListTask from "./components/ListTask";
+import Logo from './components/logo';
 
 function App() {  
   return (
     <div className="App">
-      <div className="container-logo">
-        <img alt="logo" src={logo} className="img-logo"/>
-      </div>
+    <Logo/>
       <div className="container-todo-principal">
       <div className="title-container">
         <h1>Todo List +</h1>
