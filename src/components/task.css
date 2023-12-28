@@ -1,6 +1,7 @@
 .task-container{
     width:400px;
     min-height: 30px;
+    max-height: 450px;
     background-color: #f1ae4f;
     margin:5px 0;
     padding: 6px 10px 6px 15px;
@@ -28,18 +29,19 @@
 }
 
 .task-text{
-    width: 80%;
+    width: 94%;
     height: 100%;
     font-size:15px;
     display: flex; 
     cursor: pointer;
     flex-wrap: wrap;
     align-items: center;
-    
+    word-break: break-all;
 }
 
 .task-icon-container{
-    width: 20%;
+    width: 6%;
+    max-height: 450px;
     font-size: 20px;
     display: flex; 
     justify-content: right;
